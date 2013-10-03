@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+#boxLogo {
+	width:auto;
+	height:100px;
+	text-align:center;
+	padding:0 0 10px 0;
+}
+#sidebar {
+	width:222px;
+	min-height:600px;
+}
+#nav {
+	width:auto;
+	height:auto;
+	margin:15px 0 15px 0;
+}
+ul.listaNav {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+ul.listaNav li {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+ul.listaNav li a {
+	display:block;
+	width:195px;
+	margin:0 0 0 3px;
+	padding:12px 0 12px 20px;
+	font-family: 'Armata', sans-serif;
+	text-decoration:none;
+	color:#FFF;
+	font-size:12px;
+	border-bottom:#2a2f34 1px solid;
+	text-transform:uppercase;
+	background:url(../../images/admin/bg-link.jpg) top repeat-x;
+	text-shadow:#000 0px 1px 0px;
+	-moz-text-shadow:#000 0px 1px 0px;
+	-o-text-shadow:#000 0px 1px 0px;
+	-webkit-text-shadow:#000 0px 1px 0px;
+	transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+}
+ul.listaNav li a:hover {
+	background:url(../../images/admin/bg-link-hover.jpg) top repeat-x;
+	padding:12px 0 12px 25px;
+	width:192px;
+}
+ul.listaNav li ul {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	display:none;
+}
+ul.listaNav li:hover > a {
+	background:url(../../images/admin/bg-link-hover.jpg) top repeat-x;
+	padding:12px 0 12px 25px;
+	width:190px;
+}
+ul.listaNav li:hover ul {
+	margin:-40px 0 0 220px;
+	padding:0 0 0 0;
+	display:block;
+	position:absolute;
+	z-index:3000;
+	background:url(../../images/admin/bodyBg.png);
+	width:222px;
+	border-bottom:#454D55 2px solid;
+	border-top:#454D55 2px solid;
+}
+#visita {
+	width:200px;
+	height:50px;
+	margin:15px auto 15px auto;
+	padding:24px 0 0 0;
+	text-align:center;
+	background:url(../../images/admin/bg2.png) no-repeat center;
+}
+#visita P {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+}
+#visita font {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#90C255;
+	font-size:12px;
+	font-style:italic;
+}
+.linha {
+	width:183px;
+	height:3px;
+	background:url(../../images/admin/linha.png) no-repeat center;
+	margin:7px auto 7px auto;
+}
+a.linkEdit {
+	display:block;
+	width:34px;
+	height:31px;
+	float:left;
+	background:url(../../images/admin/bg-edit.png) top no-repeat;
+}
+a.linkEdit:hover {
+	background:url(../../images/admin/bg-edit.png) bottom no-repeat;
+}
+a.linkRemove {
+	display:block;
+	width:32px;
+	height:31px;
+	float:left;
+	background:url(../../images/admin/bt-remove.png) top no-repeat;
+}
+a.linkRemove:hover {
+	background:url(../../images/admin/bt-remove.png) bottom no-repeat;
+}
+.divActions {
+	width:66px;
+	height:32px;
+	margin: 0 0 0 -4px;
+}

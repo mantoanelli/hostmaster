@@ -1,0 +1,1 @@
+<div id="footer"><p>ADMIN é um produto <a href="http://www.agenciawld.com.br" target="_blank">WLD</a> | Todos dos direitos reservados</p></div>

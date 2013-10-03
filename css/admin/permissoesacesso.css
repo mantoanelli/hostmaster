@@ -1,0 +1,44 @@
+#gridViewV1{
+    width: 900px;
+}
+
+.grupos{
+    cursor: pointer;
+}
+
+.grupos.hover{
+    background: #ababab !important;
+}
+
+.acoesRegistro {
+    background: none !important;
+    border:0 !important;
+    float: none !important;
+    margin: 0 auto !important;
+    width: 900px !important;
+}
+
+.perms{
+    float: left;
+    padding: 6px;
+    margin: 1px;
+    background: #ccc;
+    cursor: pointer;
+    color: #888;
+}
+
+.perms.hover{
+    background: #efefef;
+}
+
+.perms.havePerm{
+    background: #66bb66;
+    color: #FFF;
+}
+
+.perms.havePerm.hover{
+    background: #aaFFaa;
+    color: #333;
+}
+
+

@@ -1,0 +1,291 @@
+#gridViewV1{
+
+}
+
+#gridViewV1 .linhaTitulos{
+
+}
+
+#gridViewV1 .linhaTitulos .item{
+    background: #939393;
+    color:#FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    text-align: left;
+}
+
+#gridViewV1 .linhaTitulos .item.order{
+    background-color: #939393;
+    padding: 0;
+    width: 20px;
+    background-image: url(../../images/admin/ordering.png);
+    background-repeat: no-repeat;
+    background-position: -30px center;
+}
+
+#gridViewV1 .linhaTitulos .item.order.hover{
+    background-color: #AAA ;
+    cursor: pointer;
+}
+
+#gridViewV1 .linhaTitulos .item.order.asc{
+    background-position: 2px center;
+}
+
+#gridViewV1 .linhaTitulos .item.order.desc{
+    background-position: -14px center;
+}
+
+#gridViewV1 .linha .item{
+    padding: 6px;
+    text-align: left;
+    background-color: #e1e1e1;
+}
+
+#gridViewV1 .linha .item.alternate{
+    background-color: #cdcdcd;
+}
+
+#gridViewV1 .linha .item.hover{
+    background-color: #f7f7f7;
+}
+
+#gridViewV1 .linha .item .acao{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: #888;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+#gridViewV1 .linha .item .acao.edit{
+    background: url(../../images/admin/edit16x16.png) 50% no-repeat;
+}
+
+#gridViewV1 .linha .item .acao.delete{
+    background: url(../../images/admin/delete16x16.png) 50% no-repeat;
+}
+
+#gridViewV1 .linha .item .acao.ativo{
+    background: url(../../images/admin/lockUnlock16x16.png) no-repeat;
+    background-position: -16px 0;
+}
+
+#gridViewV1 .linha .item .acao.inativo{
+    background: url(../../images/admin/lockUnlock16x16.png) no-repeat;
+}
+
+#gridViewV1 .linha .item .acao.order{
+    background: url(../../images/admin/move16x16.png) no-repeat;
+    cursor: move;
+}
+
+#gridViewV1 .linha .item .acao.disabled{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    cursor: default;
+}
+
+.acoesRegistro{
+    float: right;
+    width: 100%;
+    background: #f5f5f5;
+    border-bottom: 1px solid #A8A8A8;
+    border-top: 1px solid #A8A8A8
+}
+
+.acoesRegistro .acao{
+    float: right;
+    padding: 8px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border: 1px solid #a8a8a8;
+}
+
+.acoesRegistro .acao.save{
+    background: #dcedff;
+    border:1px solid #576fa5;
+}
+
+.acoesRegistro .acao.cancel{
+    background: #ffd3d3;
+    border:1px solid #821f1f;
+}
+
+
+
+.acoesRegistro .acao .icon{
+    float: left;
+    margin-right: 6px;
+}
+
+.acoesRegistro .acao .label{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.acoesRegistro .acao.save .label{
+    color:#31529d;
+}
+
+.acoesRegistro .acao.cancel .label{
+    color:#821f1f;
+}
+
+.acoesRegistro .acao.hover{
+    background: #fff;
+}
+
+.acoesRegistro .acao.hover .label{
+    color:#333
+}
+
+.acoesRegistro .acao .icon{
+    width: 16px;
+    height: 16px;
+}
+
+.acoesRegistro .acao.save .icon{
+    background: url(../../images/admin/save16x16.png) no-repeat;
+}
+
+.acoesRegistro .acao.cancel .icon{
+    background: url(../../images/admin/cancel16x16.png) no-repeat;
+}
+
+#addArea .formView{
+    width:800px;
+    margin: 10px auto;
+    border: 1px solid #a8a8a8;
+    border-bottom: 0;
+}
+
+.formView{
+    width:auto;
+    margin: 10px auto;
+    border: 1px solid #a8a8a8;
+    border-bottom: 0;
+}
+
+.formView .tituloForm{
+    margin: 0;
+    padding: 5px;
+    background: #e2e2e2;
+}
+
+.formView .tituloFormFull{
+    padding: 0; 
+    width: auto;
+    float: none;
+}
+
+.formView form{
+    /*margin:10px;*/
+}
+
+.formView .itemForm{
+    width:auto;
+    margin: 10px;
+    float: left;
+}
+
+
+
+.formView .itemForm label{
+    display: block;
+    font-weight: bold;
+}
+
+.formView .itemForm label.error{
+    display: block;
+    font-weight: normal;
+    color: #ff0000;
+}
+
+.formView .itemForm input,.formView .itemForm select,.formView .itemForm textarea{
+    border: 1px solid #a8a8a8;
+    background: #f5f5f5;
+    padding: 3px;
+    font-size: 10px;
+    resize:none;
+}
+
+.formView .itemForm input.error,.formView .itemForm select.error,.formView .itemForm textarea.error{
+    border: 1px solid #FF0000;
+    background: #ffffdc;
+}
+
+.subTitulo{
+    background: #DDD;
+    border-bottom: 1px solid #A8A8A8;
+    border-top: 1px solid #A8A8A8;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 15px;
+}
+#gridViewV1 .areaPaginacao{
+    width: auto;
+    float: right;
+}
+
+ul.pagination{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.pagination li{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 2px;
+}
+
+ul.pagination li.currentPage span{
+    padding: 2px 4px;
+    background:  #FFF;
+    color: #888;
+}
+
+ul.pagination li a{
+    padding: 2px 4px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul.pagination li a:hover{
+    background: url(../../images/layout/bgBranco_alpha20.png);
+}
+
+.ui-widget-content {
+    border: 1px solid #DDD;
+    background: #FFF;
+    color: #333;
+}
+
+.ui-corner-all {
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+#tabs .ui-corner-top {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.ui-tabs{
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding: 0;
+}

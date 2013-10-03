@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- DOC: http://trentrichardson.com/examples/timepicker/ -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>jQuery UI Datapicker pt-br exemplo</title>
+		<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+		<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui-timepicker-addon.css" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-sliderAccess.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.datepicker-pt-BR.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				 	$(".data").datetimepicker({
+						showSecond : true,
+						timeFormat : 'hh:mm:ss',
+						dateFormat : 'dd/mm/yy',
+						hourText: 'Hora',
+						minuteText: 'Minuto',
+						secondText: 'Segundo',
+						currentText: 'Agora',
+						closeText: 'Ok'
+					});
+			});
+		</script>
+		
+	</head>
+	<body>
+		<input type="text" class="data" />
+
+	</body>
+</html>
+
